@@ -190,11 +190,12 @@
 
 }
 
-.bullet_points_cv {
+.cv_paragraph {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color:white;
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
+    text-align: justify;
 }
 
 #body_cv{
