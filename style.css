@@ -260,3 +260,9 @@ input[type=text], select, textarea {
     text-align: left;
     padding-bottom: 5px;
   }
+
+  
+  .project_images {
+    text-align: center;
+    padding: 30px;
+}
