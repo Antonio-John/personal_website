@@ -5,15 +5,15 @@
             antonio.john
         </title>
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="../../style.css">
+        <link rel="stylesheet" type="text/css" href="../../../style.css">
     </head>
     <body>
         <nav id = "nav_bar_colour">
             <ul id = centre_nav >
-                <li id = horizontal_nav> <a id = "nav_items" href="../../index.html">Home</a> </li>
-                <li id = horizontal_nav> <a id = "nav_items" href="../../cv/cv.html">CV</a> </li>
-                <li id = horizontal_nav> <a id = "nav_items" href="../projects.html">Projects</a> </li>
-                <li id = horizontal_nav> <a id = "nav_items" href ="../../contact_info/contact_info.html">Contact Info</a> </li>
+                <li id = horizontal_nav> <a id = "nav_items" href="../../../index.html">Home</a> </li>
+                <li id = horizontal_nav> <a id = "nav_items" href="../../../cv/cv.html">CV</a> </li>
+                <li id = horizontal_nav> <a id = "nav_items" href="../../projects.html">Projects</a> </li>
+                <li id = horizontal_nav> <a id = "nav_items" href ="../../../contact_info/contact_info.html">Contact Info</a> </li>
             </ul>
         </nav>
 
@@ -59,10 +59,9 @@
                         One of my assesments was to decrypt random text using different ciphers. Python and coding in general is a 
                         very powerful tool as it allows us to compute and automate processes which can be very time consuming when done manually.
                         I wanted to create an automated process to do this, so started writing some code which allowed me decrypt/encrypt text. 
-                        The four ciphers I focussed on were atbash, ceaser, playfair and vigenere. I am not going to into too much detail
-                        about the code but the code is publicly available here
-                        on <a href="https://github.com/pyantonio-coder/crypto/tree/main">github</a>. It is split into seperate scripts
-                        as below:
+                        The four ciphers I focussed on were atbash, ceaser, playfair and vigenere. Not going to go too much into detail about 
+                        the specific code but it is all publicaly available here on <a href="https://github.com/pyantonio-coder/crypto/tree/main">github</a>. 
+                        It is split into seperate scripts as below:
                     </p>
                 </div>
                 <div class=project_images>
@@ -99,8 +98,10 @@
                 </div>
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
-                        The license gives other developers/users to see how the package can be used. The most common one is MIT and
-                        this is the one I decided use.
+                        The license tells other developers/users how the package can be used. 
+                        There are many different types of licences but the one one I decided to use was the 
+                        <a href=" https://mit-license.org">MIT license</a>.This allows
+                        the code to be distibuted but with a copyright notice.
                     </p>
                 </div>
                  <div class = "title">
@@ -108,7 +109,8 @@
                  </div>
                  <div class = "info_cv">
                     <p class = "cv_paragraph">
-                       This ensures that everything from the github repository is packaged up within the package.
+                       This ensured that everything from the github repository was packaged up within the package. More on the manifest files
+                       can be found on the youtube tutorial mentioned above.
                     </p>
                 </div>
                  <div class = "title">
@@ -116,7 +118,7 @@
                  </div>
                  <div class = "info_cv">
                     <p class = "cv_paragraph">
-                       This gives information on the package, how to install it and examples of usage.
+                       This contains information about the package. There is documentation, set up instructions and examples of usage.
                     </p>
                 </div>
                  <div class = "title">
@@ -124,8 +126,8 @@
                  </div>
                  <div class = "info_cv">
                     <p class = "cv_paragraph">
-                       This contains all the important information needed to set up the package. This needs to be in the directory above
-                       the actual code you are wanting to publish. This includes the version, description, authour details and what the package
+                       This has all the important information needed to set up the package. This needed to be in the directory above
+                       the actual code of cryptology I wanted to publish. This includes the version, description, authour details and what the package
                        should ultimately be called.
                     </p>
                 </div>
@@ -135,7 +137,7 @@
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
                         Once everything was ready I could upload the package to Pypi. This is a library of over 330,000 python packages!
-                        The commands to do this were as follows.
+                        The process I used to do this was the following:
                     </p>
                 </div>
                 <div class=project_images>
@@ -143,13 +145,40 @@
                 </div>
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
-                        Sdist is short for Source Distribution. This commands takes all the information from the setup.py files
-                        and then create the package information/files for you. The last thing to action was to upload the package
-                        onto the Pypi website. There is a package called twine which did this all for me.
+                        Sdist is short for Source Distribution. This commands took all the information from the setup.py files
+                        and created the package information/files for me. With this command the package is stored locally, 
+                        the last thing I needed to do was to upload the package to PyPi. There are several ways to do this
+                        but the method I used was using an existing package called twine. With the following command this uploaded everything 
+                        for me. I got onto the PyPi quick enough to see my package on the home page.
                     </p>
                 </div>
                 <div class=project_images>
                     <img src="twine.JPG" alt="twine" style="width:873px;height:37px;">
+                </div>
+                <div class = "info_cv">
+                    <p class = "cv_paragraph">
+                        The package can be found <a href="https://pypi.org/project/cryptology/">here</a> This available to anyone with python/pip to download
+                        by running "pip install cryptology" in the command line.
+                    </p>
+                </div>
+                <div class=project_images>
+                    <img src="pypi.JPG" alt="pypi" style="width:1000px;height:500px;">
+                </div>
+                <div class = "info_cv">
+                    <p class = "cv_paragraph">
+                       Now anyone is free to download the code and are able to coloborate on github.
+                    </p>
+                </div>
+                <div class = "title">
+                    <u>Next Setps</u> 
+                 </div>
+                 <div class = "info_cv">
+                    <p class = "cv_paragraph">
+                       There are many other cryptological techniques that exist including Hill & Rotor ciphers. These will be created as issues
+                       on the github page to be picked up by anyone. I'd also like to automate the testing potentially a tox file. This is an 
+                       area I would like to know more on. This would allow theautomation of checking that all unit tests are passing instead of manually having to run them.
+            
+                    </p>
                 </div>
             </div>    
         </div>
