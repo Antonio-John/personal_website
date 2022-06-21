@@ -37,134 +37,82 @@
                         Unfortunately, as a student I had always selected a lie in rather than the idea of running 5000 metres.  
                         I did not know what to expect but was amazed to find myself enjoying the experience and feeding off
                         everyone's energy. There was something about the friendliness and the together of running in unison with others
-                        which made me want to come back.
+                        which made me want to come back. I would encourage others to give parkrun a go if they are able to.
                     </p>
                 </div>
                 <div class=project_images>
-                    <img src="parkrun.png" alt="imitation_game" style="width:327px;height:154px;">
+                    <img src="parkrun.png" alt="parkruns" style="width:327px;height:154px;">
                 </div>
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
                         After coming home from parkrun I switched the televsion on. I have always loved
-                        playing and watching sport. From watching the olympics to playing 5 aside 
+                        playing and watching sport. From watching the olympics to playing 5 aside. Today Eliud 
+                        Kipchoge broke the 2 hour marathon at the <a href="https://www.ineos159challenge.com">Ineos 1:59 Challenge.</a> </a>
+                        I must admit, I did not realise the scale of how hard this was initially. I think this youtube
+                        <a href="https://www.youtube.com/watch?v=A73HQwEct-o">video</a> describe the enormity of the situation.
+                        After the parkrun in the morning and watching this, I thought this is a sport I can get into.
                     </p>
                 </div>
                 <div class=project_images>
-                    <img src="scytale.jfif" alt="scytale" style="width:800px;height:300px;">
+                    <img src="kipchoge.jpg" alt="kipchoge" style="width:668px;height:514px;">
                 </div>
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
-                        One of my assesments was to decrypt random text using different ciphers. Python and coding in general is a 
-                        very powerful tool as it allows us to compute and automate processes which can be very time consuming when done manually.
-                        I wanted to create an automated process to do this, so started writing some code which allowed me decrypt/encrypt text. 
-                        The four ciphers I focussed on were atbash, ceaser, playfair and vigenere. Not going to go too much into detail about 
-                        the specific code but it is all publicaly available here on <a href="https://github.com/pyantonio-coder/crypto/tree/main">github</a>. 
-                        It is split into seperate scripts as below:
+                        Over the past three years I have kept running and going to Parkrun. I have attended many different
+                        (global pandemic cancelled many) parkruns and love the health/mental benefits that running 
+                        gives me. I have improved massivley since the 12th October 19 but still have a lot more to 
+                        improve upon and am by no means an expert. As I ran more, one of the questions I asked myself
+                        was how I could measure progress? Being a data nerd I kept a spreadsheet of all runs
+                        since my first parkrun. I wanted to create something automated where the only manual process
+                        was to enter each run into my spreadsheet. Below enjoying some crisps.
                     </p>
                 </div>
                 <div class=project_images>
-                    <img src="code_structure.JPG" alt="code_structure" style="width:1000px;height:200px;">
+                    <img src="me_running.jpg" alt="me_running" style="width:468px;height:624px;">
                 </div>
                 <div class = "info_cv">
                     <p class = "cv_paragraph">
-                        Contained within the cryptology.py script are the eight main functions of the ciphers mentioned above (one for encryption and one for decryption). 
-                        Full docs for these functions can be found on the <a href="https://github.com/pyantonio-coder/crypto/blob/main/README.md">Readme.MD</a> on the github page.
-                        The tools.py script contain mini function which are used within the eight main functions. They break the main functions into smaller, easily 
-                        managable chunks of code. This makes it easier to debug code as well as unittest code. Every function created within these two files are tested
-                        within the tests folder. I used the unittest framework but other frameworks like Pytest are available.  
+                        So, a question someone might think is: Excel has built in graphs why don't you use them?
+                        When analysing or producing data visualisation I think a key theme is automate your analysis 
+                        as much as possible. This way, if you have carry out similair analysis in the future you don't have to 
+                        re-invent the wheel and keeping having to edit a spreadsheet. Furthermore,the bigger your dataset the 
+                        more appropriate it is to use tools like Python. My dataset in this case is very small (few hundred rows)
+                        but if I was given a dataset with hundreds of thousands of rows with a large amount of runners, I would 
+                        be able to use the tools & techniques with python/pandas to analyse this data. I am also able to version 
+                        control my code and result using a tool like GIT. The full repository of the code can be found <a href="https://github.com/Antonio-John/running">here.</a>
                     </p>
+                </div>
+                <div class = "title">
+                    <u> Python Pipeline</u> 
+                 </div>
+                <div class = "info_cv">
+                    <p class = "cv_paragraph">
+                     A data pipeline can be thought off as a flow of data going through a pipe, having various tranformations along the way
+                     and outputing some tables/charts which can be used to help analyse a problem. My running pipeline three stages can be found in the
+                     readme.MD of the repository. Here is a diagram which descibes the process
+                    </p>
+                </div>
+                <div class=project_images>
+                    <img src="running_pipeline.jpg" alt="running" style="width:960px;height:720px;">
+                </div>
+                <div class = "info_cv">
+                    <p class = "cv_paragraph">
+                    After writing the code the only steps I am involved in is the manual input of data at the start and the analysing of charts
+                    to see which areas I need to work on. The middle three scripts are all python scripts which takes the input data from the steps
+                    before and outputs data for the next step. An example of one of the charts can be seen below.
+                    </p>
+                </div>
+                <div class=project_images>
+                    <img src="monthly_barchart_distance.png" alt="example chart" style="width:640px;height:480px;">
                 </div>
 
-                <div class = "title">
-                    <u> Python Package Structure</u> 
-                 </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                       The above code helped me answer my assesment questions but one of the great things about Python is the ability to share and distribute 
-                       code to others. This was my first time attempting this, the guidance I used was a 
-                       <a href="https://python-guide.readthedocs.io/en/latest/shipping/packaging/">Hitchkiers Guide to packaging code</a> along with this helpful
-                       <a href="https://www.youtube.com/watch?v=GIF3LaRqgXo&t=712s">youtube tutorial</a>. Below is the structure of the python package I decided to 
-                       call cryptology.
-                    </p>
-                </div>
-                <div class=project_images>
-                    <img src="code_package_structure.JPG" alt="code_structure" style="width:1148px;height:373px;">
-                </div>
-                <div class = "title">
-                    <u> Licence</u> 
-                 </div>
-                </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                        The license tells other developers/users how the package can be used. 
-                        There are many different types of licences but the one one I decided to use was the 
-                        <a href=" https://mit-license.org">MIT license</a>.This allows
-                        the code to be distibuted but with a copyright notice.
-                    </p>
-                </div>
-                 <div class = "title">
-                    <u>Mainfest</u> 
-                 </div>
                  <div class = "info_cv">
                     <p class = "cv_paragraph">
-                       This ensured that everything from the github repository was packaged up within the package. More on the manifest files
-                       can be found on the youtube tutorial mentioned above.
-                    </p>
-                </div>
-                 <div class = "title">
-                    <u>ReadME</u> 
-                 </div>
-                 <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                       This contains information about the package. There is documentation, set up instructions and examples of usage.
-                    </p>
-                </div>
-                 <div class = "title">
-                    <u>Setup.py</u> 
-                 </div>
-                 <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                       This has all the important information needed to set up the package. This needed to be in the directory above
-                       the actual code of cryptology I wanted to publish. This includes the version, description, authour details and what the package
-                       should ultimately be called.
-                    </p>
-                </div>
-                <div class=project_images>
-                    <img src="setup.JPG" alt="setup" style="width:825px;height:362px;">
-                </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                        Once everything was ready I could upload the package to Pypi. This is a library of over 330,000 python packages!
-                        The process I used to do this was the following:
-                    </p>
-                </div>
-                <div class=project_images>
-                    <img src="s_dist.JPG" alt="sdist" style="width:663px;height:359px;">
-                </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                        Sdist is short for Source Distribution. This commands took all the information from the setup.py files
-                        and created the package information/files for me. With this command the package is stored locally, 
-                        the last thing I needed to do was to upload the package to PyPi. There are several ways to do this
-                        but the method I used was using an existing package called twine. With the following command this uploaded everything 
-                        for me. I got onto the PyPi quick enough to see my package on the home page.
-                    </p>
-                </div>
-                <div class=project_images>
-                    <img src="twine.JPG" alt="twine" style="width:873px;height:37px;">
-                </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                        The package can be found <a href="https://pypi.org/project/cryptology/">here</a> This available to anyone with python/pip to download
-                        by running "pip install cryptology" in the command line.
-                    </p>
-                </div>
-                <div class=project_images>
-                    <img src="pypi.JPG" alt="pypi" style="width:1000px;height:500px;">
-                </div>
-                <div class = "info_cv">
-                    <p class = "cv_paragraph">
-                       Now anyone is free to download the code and are able to coloborate on github.
+                       This chart is a mock up of what running miles per month might look like. This is just one of the charts that are 
+                       produced automatically which I can then analyse and look at. Matplotlib is used in this process and all functions are unitested. I think having this automated
+                       process can save so much time. This is just a small pipeline intended for my own purpose but when thinking about how creating
+                       pipelines like these can be applied to big business datasets the efficient & productivy savings can be enormous. The power python 
+                       and automation has to reduce a messy unclean business dataset with thousands of row to something tangible and meaningful to analyse is amazing.
                     </p>
                 </div>
                 <div class = "title">
@@ -172,11 +120,9 @@
                  </div>
                  <div class = "info_cv">
                     <p class = "cv_paragraph">
-                       There are many other cryptological techniques that exist including Hill & Rotor ciphers. These will be created as issues
-                       on the github page to be picked up by anyone. I'd also like to automate the testing potentially a tox file. This is an 
-                       area I would like to know more on. This would allow the automation of checking that all unit tests are passing instead of manually having to run them.
-                       I learnt a great deal whilst publishing the code and if you want to be able to distribute your code for anyone to used
-                       this is a great learning opportunity.
+                       I would like to build a dashboard to create a more dynamic user interface. This would allow me to cut and slice the data in any way
+                       I desired. Explore the posibility of writing the data in some sort of cloud SQL server like postgresql. Build templates of the raw data, so anyone
+                       can run the pipeline for themselves with their own running data. Include more charts on a type of run basis e.g interval, long run, easy run etc..
                     </p>
                 </div>
             </div>    
